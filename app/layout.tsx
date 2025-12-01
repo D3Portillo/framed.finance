@@ -18,9 +18,9 @@ const nextFont = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Framed Finance - Stupid Simple Yield Generation",
+  title: "Framed Finance - Autopilot earnings made simple",
   description:
-    "A work in progress platform to simplify yield generation on many EVM chains.",
+    "Finance, framed for humans. Autopilot earnings made simple. A cross-chain yield generation mini app for Avalanche, Base and Worldchain.",
   metadataBase: new URL("https://framed.finance/"),
 }
 

@@ -1,3 +1,3 @@
 # Framed Finance
 
-A dead-easy to use yield aggregator for Avalanche, Base and Worldchain.
+Finance, framed for humans. Autopilot earnings made simple. A cross-chain yield generation mini app.
