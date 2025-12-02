@@ -23,4 +23,7 @@ a {
 
 @theme {
   --spacing-safe-bottom: var(--safe-inset-bottom, 0px);
+  --color-ff-green: #09e323;
+  --color-ff-yellow: #ffb800;
+  --color-ff-red: #fb3640;
 }
