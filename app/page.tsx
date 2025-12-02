@@ -91,30 +91,32 @@ export default function Home() {
         </section>
 
         {/* Bottom Navigation */}
-        <nav className="fixed bottom-0 left-0 right-0 flex items-center justify-around px-4 pt-6 border-t rounded-t-[3rem] border-white/15 pb-safe-bottom bg-black/80 backdrop-blur-md">
-          <button className="grid place-items-center gap-1">
-            <figure className="size-6 grid place-items-center">
-              <Logo className="text-white size-6" />
-            </figure>
-            <span className="text-xs font-medium">Home</span>
-          </button>
+        <div className="fixed bottom-0 left-0 right-0">
+          <nav className="flex max-w-md mx-auto items-center justify-around px-4 pt-6 border-t rounded-t-[3rem] border-white/15 pb-safe-bottom bg-black/80 backdrop-blur-md">
+            <button className="grid place-items-center gap-1">
+              <figure className="size-6 grid place-items-center">
+                <Logo className="text-white size-6" />
+              </figure>
+              <span className="text-xs font-medium">Home</span>
+            </button>
 
-          <button className="flex -top-2 flex-col items-center gap-1 relative">
-            <div className="size-12 -top-1 bg-ff-yellow text-black rounded-full flex items-center justify-center absolute">
-              <FaArrowUp className="text-xl" />
-            </div>
-            <span className="text-xs font-medium mt-12 text-white/60">
-              Send
-            </span>
-          </button>
+            <button className="flex -top-2 flex-col items-center gap-1 relative">
+              <div className="size-12 -top-1 bg-ff-yellow text-black rounded-full flex items-center justify-center absolute">
+                <FaArrowUp className="text-xl" />
+              </div>
+              <span className="text-xs font-medium mt-12 text-white/60">
+                Send
+              </span>
+            </button>
 
-          <button className="grid place-items-center gap-1">
-            <figure className="size-6 grid place-items-center place-content-center">
-              <FaCoins className="text-2xl scale-105" />
-            </figure>
-            <span className="text-xs font-medium text-white/60">Assets</span>
-          </button>
-        </nav>
+            <button className="grid place-items-center gap-1">
+              <figure className="size-6 grid place-items-center place-content-center">
+                <FaCoins className="text-2xl scale-105" />
+              </figure>
+              <span className="text-xs font-medium text-white/60">Assets</span>
+            </button>
+          </nav>
+        </div>
       </main>
     </Fragment>
   )
